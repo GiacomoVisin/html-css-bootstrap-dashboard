@@ -1,0 +1,13 @@
+.logo{
+    width: 50px;
+}
+
+.light{
+    color:white;
+}
+
+button i{
+    color:rgba(255, 255, 255, 0.521);
+    font-size: 1.7rem;
+}
+
