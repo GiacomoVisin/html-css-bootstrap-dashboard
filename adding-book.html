@@ -74,7 +74,7 @@
 
         <div class="container">
             <h1 class="mt-4 mb-4"> Nuovo libro</h1>
-            <div class="row">
+            <div class="row border-bottom">
 
                 <div class="col col-sm-6 col-md-6">
                     <form>
@@ -123,12 +123,36 @@
                 </div>
                 <div class="col col-sm-12 col-lg-4">
                     <form>
-                        <div class="mt-3">
+                        <div class="mt-3 mb-4">
                             <label for="exampleInputEmail1" class="form-label">ISBN#</label>
                             <input type="text" class="form-control" id="username"
                                 placeholder="inserisci il codice ISBN#">
                         </div>
                 </div>
+
+                <hr class="my-4">
+
+                <div class="col col-12">
+                    <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Note</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="inserisci eventuali note sul libro"></textarea>
+                    </div>
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Disponibile anche in digitale
+                        </label>
+                    </div>
+                      <a href="./adding-book.html" class="btn btn-primary mt-3">
+                            Aggiungi Libro
+                        </a>
+                </div>
+
+
+
+
+
                 </form>
             </div>
         </div>
